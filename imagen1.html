@@ -6,13 +6,13 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
 </head>
 <body>
-    <nav>
-        <div>
+    <nav><!--Se uso un nav para crear un pequeño menu de cabecera con varias opciones-->
+        <div><!--Se usa un div para tener un bloque solo para los siguientes elementos que se les encierra
+        y emular una pequeña barra de navegacion-->
             HONG
-            <select name="c">
+            <select name="c"><!--Muchas de las etiquetas select usadas son para emular la barra de navegacion de cada opcion mostrada en la imagen-->
                 <option value="c">DESIGN/DEV</option>
             </select>
             <select name="d">
@@ -27,42 +27,42 @@
             <select name="g">
                 <option value="g">ALL</option>
             </select>
-            <a href="#">DEALS</a>
-            <input type="text" placeholder="Example: CSS Tips">
+            <a href="#">DEALS</a><!--Se crea un vinculo que redirige a un sitio-->
+            <input type="text" placeholder="Example: CSS Tips"><!--Barra de busqueda-->
         </div>
     </nav>
-    <table>
-        <tr>
+    <table><!-- Uso de una tabla para acomodar los elementos y tener una estructura similar a la de la imagen -->
+        <tr><!--La fila donde ira el bloque de elementos, divididos por columnas-->
             <td>
                 <h1>HTML5 Website Showcase</h1>
                 <p>By Alvaris Falcon in Web Design. Updated on April 9, 2018</p>
-                <aside></aside>
+                <aside></aside><!--Seccion de anuncios, no son parte del contenido de la pagina-->
                 <center><p>So you've heard allr umors about HTML5 would take over Adobe Flash. While 
                     most web community argues that it's possible or not, you must be wandering
                     what makes HTML5 so powerful that even giant company Apple wants to use it to replace Flash.
-                </p></center>
+                </p></center><!--Etiqueta center, para centrar el contenido en la columna de la tabla-->
                 <center><p> That's why this post exists, we're not going to talk about what HTML5 can do, but 
                     show live demos of magical things that HTML5 can achieve with other language 
                     live JavaScript, so get ready to be inspired.
                 </p></center>
-                <center><input type="button" value="Show Comments"></center>
+                <div><center><input type="button" value="Show Comments"></center><!--Boton centrado para emular, y un div para asegurar que el boton se muestre en bloque --></div>
             </td>
             <td>
-                <aside>
-                    <div>Stay Updated <br>
+                <aside><!--Apartado de anuncios internos de la pagina, no tiene que ver con el contenido-->
+                    <div>Stay Updated <br><!--Utilizacion de un div para asegurar que los elementos que encierra sean faciles de manipular por medio de css, contenedor-->
                     Get daily articles in your inbox for free. <br>
                     <input type="text" placeholder="Insert email address"> 
                     <input type="button" value="Subscribe!"></div>
                 </aside>
-                <aside>
+                <aside><!--Apartado de anuncios externos a la pagina-->
                 <h3>You might also like</h3>
                 </aside>
             </td>
         </tr>
     </table>
-    <footer>
+    <footer><!--Apartado pie de pagina, donde se encuentran los derechos de autos de la pagina-->
         <div>
-            <center>All rights Reserverd, 2018 <br>
+            <center>All rights Reserverd, 2018 <br><!--Uso de un div y center para tener un contenedor de dicho contenido y centrado con el rango de vision de la pagina-->
             Reproduction of materials based on this site, in any form, without explicit permission is prohibited. Publishing Policy-Privacy Policy</center>
         </div>
     </footer>
